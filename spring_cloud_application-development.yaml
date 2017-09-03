@@ -2,3 +2,5 @@ custom:
   rabbitmq:
     queue: queuefromgit
     message: changed-again
+    listener:
+      concurrentConsumers: 2
