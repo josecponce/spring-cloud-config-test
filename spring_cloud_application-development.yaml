@@ -1,6 +1,6 @@
 custom:
   rabbitmq:
     queue: queuefromgit
-    message: original
+    message: new message
     listener:
-      concurrentConsumers: 2
+      concurrentConsumers: 5
